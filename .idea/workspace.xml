@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43b39d46-7ed4-46f7-af9b-2622e1d900d1" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uEhdaEUqkGY7qaiOW28Gj4Kg5v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../21年高级框架应用" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.0907">
+    <configuration name="0907" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="db_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="I:\ProgramData\Anaconda3\envs\py38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../21年暑假小项目/0907.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="db_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="I:\ProgramData\Anaconda3\envs\py38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="db_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="I:\ProgramData\Anaconda3\envs\py38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db_design" type="Python.DjangoServer" factoryName="Django server">
+      <module name="db_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.db_design" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.0907" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.0907" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43b39d46-7ed4-46f7-af9b-2622e1d900d1" name="默认更改列表" comment="" />
+      <created>1624236743667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624236743667</updated>
+      <workItem from="1624236749256" duration="3978000" />
+      <workItem from="1624249330723" duration="13997000" />
+      <workItem from="1624322214507" duration="5248000" />
+      <workItem from="1624335069370" duration="1142000" />
+      <workItem from="1624363025871" duration="1471000" />
+      <workItem from="1624364639404" duration="109000" />
+      <workItem from="1624410358457" duration="3274000" />
+      <workItem from="1624422478939" duration="3824000" />
+      <workItem from="1624495224937" duration="5780000" />
+      <workItem from="1624507667610" duration="1781000" />
+      <workItem from="1624509642802" duration="3630000" />
+      <workItem from="1624532427433" duration="2805000" />
+      <workItem from="1624579727382" duration="6299000" />
+      <workItem from="1624592395068" duration="1528000" />
+      <workItem from="1624860226263" duration="3799000" />
+      <workItem from="1624962756380" duration="7804000" />
+      <workItem from="1625011398112" duration="6479000" />
+      <workItem from="1625048818930" duration="5198000" />
+      <workItem from="1625106717085" duration="3733000" />
+      <workItem from="1625146878375" duration="91000" />
+      <workItem from="1625184368191" duration="1878000" />
+      <workItem from="1625198759759" duration="659000" />
+      <workItem from="1625309620128" duration="1492000" />
+      <workItem from="1625311503671" duration="635000" />
+      <workItem from="1625576057609" duration="794000" />
+      <workItem from="1625580260572" duration="32000" />
+      <workItem from="1626258843374" duration="609000" />
+      <workItem from="1628688881412" duration="846000" />
+      <workItem from="1636256780024" duration="723000" />
+      <workItem from="1636272572471" duration="895000" />
+      <workItem from="1636275749864" duration="610000" />
+      <workItem from="1636329483381" duration="711000" />
+      <workItem from="1636332545888" duration="505000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1636333058042">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1636333058042" />
+    <state width="1342" height="192" key="GridCell.Tab.0.bottom" timestamp="1636274408038">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1342" height="192" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636274408038" />
+    <state width="1342" height="192" key="GridCell.Tab.0.center" timestamp="1636274408038">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1342" height="192" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636274408038" />
+    <state width="1342" height="192" key="GridCell.Tab.0.left" timestamp="1636274408038">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1342" height="192" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636274408038" />
+    <state width="1342" height="192" key="GridCell.Tab.0.right" timestamp="1636274408038">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1342" height="192" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636274408038" />
+    <state x="270" y="50" key="SettingsEditor" timestamp="1636332896266">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="270" y="50" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636332896266" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/db_design$0907.coverage" NAME="0907 Coverage Results" MODIFIED="1636274354288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testapp" />
+    <SUITE FILE_PATH="coverage/db_design$tests.coverage" NAME="tests Coverage Results" MODIFIED="1625108981171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testapp" />
+  </component>
+</project>

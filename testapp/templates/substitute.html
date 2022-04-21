@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+
+<link rel="stylesheet" href="../static/css/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+
+<div class="materialContainer">
+	<div class="box">
+		<div class="title">登录</div>
+		
+		<form action="query" method="get">
+		 <div class="input">
+			<label for="name">用户名</label>
+			<input type="text" name="username" id="name">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="pass">密码</label>
+			<input type="password" name="password" id="pass" value placeholder='密码需要包括字母和数字' required>
+			<span class="spin"></span>
+		</div>
+		<div class="button login">
+			<button type="submit" name="submit1" value="登录">
+				<span>登录</span>
+				<i class="fa fa-check"></i>
+			</button>
+		</div>
+		<a href="javascript:" class="pass-forgot" >忘记密码？</a>
+		</form>
+		
+		
+	</div>
+
+	<div class="overbox">
+		<div class="material-button alt-2">
+			<span class="shape"></span>
+		</div>
+		<div class="title">注册</div>
+		
+		<form action="save" method="get">
+		 <div class="input">
+			<label for="regname">用户名</label>
+			<input type="text" name="username" id="regname">
+			<span class="spin"></span>
+		</div>
+		
+		<div class="input">
+			<label for="regpass">密码</label>
+			<input type="password" name="password" id="regpass" value placeholder='密码需要包括字母和数字' required>
+			<span class="spin"></span>
+		</div>
+		
+		<div class="input">
+			<label for="reregpass">确认密码</label>
+			<input type="password" name="reregpass" id="reregpass" value placeholder='密码需要包括字母和数字' required>
+			<span class="spin"></span>
+		</div>
+		
+		<div class="button">
+			<button type="submit" name="submit1" value="注册">
+				<span>注册</span>
+			</button>
+		</div>
+		</form>
+		
+	</div>
+
+</div>
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/index.js"></script>
+
+</body>
+</html>

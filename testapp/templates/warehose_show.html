@@ -1,0 +1,201 @@
+
+
+
+<html lang="zh"><head>
+	<meta charset="UTF-8">
+	<title>管理员操作界面</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/user&admin.css">
+	
+<body>
+	
+	<header>
+		<div class="title">
+			<span>管理员操作界面</span>
+		</div>
+		<nav>
+			<div class="userinfo">
+				<ul>
+					<li>欢迎您</li>
+					<li>管理员</li>
+					<li><a href="http://127.0.0.1:8000/login">退出登录</a></li>
+					<li><a href="http://127.0.0.1:8000">返回首页</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		
+		<div class="container">
+			<div class="select">
+				<h3>请选择操作</h3>
+				<ul id="accordion" class="accordion">
+					<li class="">
+						<div id="user-info" class="link">药品信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/medicine_show">查看药品信息</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_insert_medicine">新增药品信息</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_delete_medicine">删除指定药品</a></li>				
+							<li><a href="http://127.0.0.1:8000/login/open_alter_medicine">修改药品信息</a></li>							
+						</ul>
+					</li>
+					<li>
+						<div class="link">仓库信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/warehouse_show">查看所有仓库信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_insert_warehouse">新增仓库信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_delete_warehouse">删除指定仓库</a></li>		
+							<li><a href="http://127.0.0.1:8000/login/open_alter_warehouse">修改仓库信息</a></li>	
+						</ul>
+					</li>
+					<li>
+						<div class="link">生产商信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/manu_show">查看所有生产商信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_insert_manu">新增生产商信息</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_delete_manu">删除指定生产商</a></li>					
+							<li><a href="http://127.0.0.1:8000/login/open_alter_manu">修改生产商信息</a></li>	
+						</ul>
+					</li>
+					<li>
+						<div class="link">出入库信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/churu_show">查看所有出入库信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_insert_churu">新增出入库记录</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_delete_churu">删除出入库记录</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_alter_churu">修改出入库信息</a></li>	
+						</ul>
+					</li>
+				</ul>
+				</div>
+			</div>
+{% block content %}	
+<body>
+		<div id="result" class="dai">
+				<h1>仓库信息</h1>
+				<style type="text/css">
+			*{margin: 0;padding: 0;}
+			
+
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+			 table tbody {
+				display: block;
+				height: 400px;
+				overflow-y: scroll;
+			}
+			table thead, tbody tr {
+					display: table;
+					width: 100%;
+					table-layout: fixed;
+			}
+/*滚动条默认宽度是16px 将thead的宽度减16px*/
+    table thead {
+        width: calc( 100% - 1em);
+    }    
+			/*========bordered table========*/
+			.bordered {
+				border: solid #ccc 1px;
+				-moz-border-radius: 6px;
+				-webkit-border-radius: 6px;
+				border-radius: 6px;
+				-webkit-box-shadow: 0 1px 1px #ccc;
+				-moz-box-shadow: 0 1px 1px #ccc;
+				box-shadow: 0 1px 1px #ccc;
+				border-collapse: separate;
+				
+			}
+
+			.bordered tr {
+				-o-transition: all 0.1s ease-in-out;
+				-webkit-transition: all 0.1s ease-in-out;
+				-moz-transition: all 0.1s ease-in-out;
+				-ms-transition: all 0.1s ease-in-out;
+				transition: all 0.1s ease-in-out;		
+			}
+			.bordered .highlight,
+			.bordered tr:hover {
+				background: #fbf8e9;		
+			}
+			.bordered td, 
+			.bordered th {
+				border-left: 1px solid #ccc;
+				border-top: 1px solid #ccc;
+				padding: 30px;
+				text-align: left;
+			}
+			.bordered th {
+				background-color: #dce9f9;
+				background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+				background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+				background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+				background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+				background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+				background-image: linear-gradient(top, #ebf3fc, #dce9f9);
+				filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ebf3fc, endColorstr=#dce9f9);
+				-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ebf3fc, endColorstr=#dce9f9)";
+				-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+				-moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+				box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+				border-top: none;
+				text-shadow: 0 1px 0 rgba(255,255,255,.5);
+			}
+			.bordered td:first-child, 
+			.bordered th:first-child {
+				border-left: none;
+			}
+			.bordered th:first-child {
+				-moz-border-radius: 6px 0 0 0;
+				-webkit-border-radius: 6px 0 0 0;
+				border-radius: 6px 0 0 0;
+			}
+			.bordered th:last-child {
+				-moz-border-radius: 0 6px 0 0;
+				-webkit-border-radius: 0 6px 0 0;
+				border-radius: 0 6px 0 0;
+			}
+			.bordered tr:last-child td:first-child {
+				-moz-border-radius: 0 0 0 6px;
+				-webkit-border-radius: 0 0 0 6px;
+				border-radius: 0 0 0 6px;
+			}
+			.bordered tr:last-child td:last-child {
+				-moz-border-radius: 0 0 6px 0;
+				-webkit-border-radius: 0 0 6px 0;
+				border-radius: 0 0 6px 0;
+			}
+			</style>
+				
+				 <table class="bordered">
+					<thead>
+					<tr>
+						<th>仓库编号</th>
+						<th>仓库名称</th>
+						<th>仓库容量</th>
+					</tr>
+					</thead>
+					<tbody>
+					{%for row in ware_list%}
+					<tr>
+						{% for j in row %}
+						<td>{{ j }}</td>
+						{% endfor %}
+					</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	<script src="../static/js/jquery-3.1.1.min.js"></script>
+	<script src="../static/js/admin.js"></script>
+	
+</body>
+{% endblock %}
+	</main>
+	<script src="../static/js/jquery-3.1.1.min.js"></script>
+	<script src="../static/js/admin.js"></script>
+
+</body></html>
+

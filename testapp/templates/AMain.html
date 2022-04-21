@@ -1,0 +1,78 @@
+<html lang="zh"><head>
+	<meta charset="UTF-8">
+	<title>管理员操作界面</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/user&admin.css">
+	
+<body>
+	
+	<header>
+		<div class="title">
+			<span>管理员操作界面</span>
+		</div>
+		<nav>
+			<div class="userinfo">
+				<ul>
+					<li>欢迎您</li>
+					<li>管理员</li>
+					<li><a href="http://127.0.0.1:8000/login">退出登录</a></li>
+					<li><a href="http://127.0.0.1:8000">返回首页</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		
+		<div class="container">
+			<div class="select">
+				<h3>请选择操作</h3>
+				<ul id="accordion" class="accordion">
+					<li class="">
+						<div id="user-info" class="link">药品信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/medicine_show">查看药品信息</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_insert_medicine">新增药品信息</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_delete_medicine">删除指定药品</a></li>				
+							<li><a href="http://127.0.0.1:8000/login/open_alter_medicine">修改药品信息</a></li>							
+						</ul>
+					</li>
+					<li>
+						<div class="link">仓库信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/warehouse_show">查看所有仓库信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_insert_warehouse">新增仓库信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_delete_warehouse">删除指定仓库</a></li>		
+							<li><a href="http://127.0.0.1:8000/login/open_alter_warehouse">修改仓库信息</a></li>	
+						</ul>
+					</li>
+					<li>
+						<div class="link">生产商信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/manu_show">查看所有生产商信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_insert_manu">新增生产商信息</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_delete_manu">删除指定生产商</a></li>					
+							<li><a href="http://127.0.0.1:8000/login/open_alter_manu">修改生产商信息</a></li>	
+						</ul>
+					</li>
+					<li>
+						<div class="link">出入库信息管理</div>
+						<ul>
+							<li><a href="http://127.0.0.1:8000/login/churu_show">查看所有出入库信息</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_insert_churu">新增出入库记录</a></li>	
+							<li><a href="http://127.0.0.1:8000/login/open_delete_churu">删除出入库记录</a></li>
+							<li><a href="http://127.0.0.1:8000/login/open_alter_churu">修改出入库信息</a></li>	
+						</ul>
+					</li>
+				</ul>
+				</div>
+	
+				<div id="result" class="result">
+					<p class="welcome">欢迎使用医院药品管理系统！</p>
+				</div>
+			</div>
+		
+	</main>
+	<script src="../static/js/jquery-3.1.1.min.js"></script>
+	<script src="../static/js/admin.js"></script>
+
+</body></html>
